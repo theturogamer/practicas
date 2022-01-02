@@ -1,0 +1,93 @@
+:root{
+	--Menu__height: 10vh;
+	--aside__width: 20vw;
+	--Mdiv__height: 30vh;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	background-color: #358;
+	height: var(--Menu__height);
+}
+.header__div-logo{
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	background-color: transparent;
+	height: var(--Menu__height);
+	width: 15vw;
+}
+.header__a-logo{
+	text-decoration: none;
+	display: inline-flex;
+	width: 15vw;
+	height: var(--Menu__height);
+	justify-content: space-evenly;
+}
+.header__img-logo{
+	height: var(--Menu__height);
+}
+nav{
+	display: inline-flex;
+	justify-content: space-evenly;
+	position: absolute;
+	left: 15vw;
+	background-color: #8ac;
+	height: var(--Menu__height);
+	width: 85vw;
+}
+.header__a-nav{
+	text-decoration: none;
+	color: #000;
+}
+.header__div-nav{
+	width: 10vw;
+	height: 8vh;
+	margin: 1vh 0;
+	text-align: center;
+	padding: 2.5vh 0;
+}
+.header__div-nav:hover{
+	background-color: #357;
+	outline: 2px solid #135;
+	border-color: transparent;
+	border-radius: 40px;
+}
+
+
+
+
+aside{
+	z-index: -100;
+	position: fixed;
+	background-color: #793;
+	right: 0;
+	width: var(--aside__width);
+	top: 10vh;
+	height: 100vh;
+}
+
+
+
+
+
+.Maindiv__div{
+	margin: 0 25vw 5vh 5vw;
+	background-color: #bca;
+	padding: 10px;
+	border: 3px solid #9a8;
+	border-radius: 30px;
+}
+.Frstdiv{
+	margin: 15vh 25vw 5vh 5vw;
+	background-color: #abc;
+	padding: 10px;
+	border: 3px solid #89a;
+	border-radius: 30px;
+}
+.Maindiv__div{
+	height: var(--Mdiv__height);
+}
+
+
